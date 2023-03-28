@@ -1,0 +1,23 @@
+
+
+Oppgave 5.
+
+A:
+    1
+
+B:
+    19, 20
+
+C:
+    3, 4, 5
+
+D:
+    7, 11, 15
+
+E:
+    2
+
+F:
+    start- 21
+    slutt- 34
+    (minus print())

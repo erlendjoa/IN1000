@@ -1,0 +1,23 @@
+Her har jeg skrevet nummering av kodeflyt i programmet, hvor linjene som blir lest opp etter nummerert # rekkefølge. 
+Oppgaven her er tatt utgangspunkt i at bruker skriver inn 8 som input. Dermed blir ikke første if setning sann, og programmet
+vil hoppe rett til neste elif, som er sann. Prosedyren som er laget helt i starten av programmet blir lest gjennom 1 gang først
+i programmet, og derretter kjørt 2 ganger videre i programmet, hvor variabelen antall_dyr endres.
+
+#1 #4 #11  def print_prosa():
+#5 #12     print("Melding til alle gaardeiere:")
+#6 #13     print("Antall dyr paa gaarden: ")
+
+#2   antall_dyr = 4
+#3   print_prosa()
+#7   print(antall_dyr)
+#8    antall_nye_dyr = int(input("Hvor mange nye dyr kommer til gaarden: "))
+#9    antall_dyr = antall_dyr + antall_nye_dyr
+#10    print_prosa()
+#14    print(antall_dyr)
+
+#15 if antall_dyr > 12:
+        print("Det er mer enn ett dusin dyr paa gaarden!")
+#16    elif antall_dyr == 12:
+#17        print("Det er ett dusin dyr paa gaarden!")
+       else:
+        print("Det er mindre enn ett dusin dyr paa gaarden!")

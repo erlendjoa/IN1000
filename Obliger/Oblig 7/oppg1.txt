@@ -1,0 +1,17 @@
+
+
+1b)
+        Hvis man skulle ta inn filen som parameter i konstruktør ville det spilleliste-objektet vært låst til å bare ha
+        1 liste med fil. Med en metode som les_fil() vil vi i teorien kunne ha flere lister med filer i samme spilleliste-objekt.
+
+1c)
+
+        Det er naturlig å velge å legge til filen i en liste fordi det blir lettere å hente/bruke objektene i lista til noe.
+        For eksempel så ville det være mer tungvindt å lage sangobjekter fra objektene i lista med en ordbok.
+        I tillegg er det og mer komplisert å holde styr på elementer i en ordbok enn en liste i dette tilfellet,
+        ettersom lister baserer seg på indeks, mens ordbok baserer seg på nøkler og innholdsverdier.
+
+1d)
+        Jeg vil tro det er flere veier rundt dette byttet, men det jeg ville gjort for minst mulig endring er å
+        endre les_fil() metoden: endre indeks nummerene i lista, altså [0] og [1], slik at Sang-objekter som opprettes får
+        parametere i den rekkefølgen vi ønsker.

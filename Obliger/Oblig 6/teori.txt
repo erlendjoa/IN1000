@@ -1,0 +1,12 @@
+Oppgave 5.
+
+1. Hva er innkapsling? Hvorfor er det nyttig?
+Å "kapsle" inn noe for brukeren, slik at det ikke har noe
+å si for brukerens grensesnitt. Prinsipp til å gjemme bort implementasjonen
+
+2. Hva er grensesnitt til en klasse? Hvordan skiller det seg fra implementasjonen av en klasse?
+    - Alt det brukeren er gitt lov til å gjøre gjennom metoder.
+
+3. Hva er instansmetode, og hvordan skiller metoder seg fra prosedyre/funksjonene vi har jobbet med hittil?
+    - Instansmetoden er metoder er funksjoner og prosedyrer som tilhører et eget objekt. De kan bare bli kjørt gjennom opprettelse
+    av et objekt hvor instansmetoden finner sted.
