@@ -1,5 +1,6 @@
 from random import randint
 
+# Challenge fra Marius
 
 class Vannmelom():
     def __init__(self):
